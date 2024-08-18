@@ -263,7 +263,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: rgba(42, 1, 74, 0.5);
+	background: rgba(189, 162, 123, 0.5);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -273,11 +273,14 @@ ol {
 
 .header.header--normal {
 	position: relative;
-	background: #290849;
+	background: #9075ab;
 }
 
-.header__logo {
-	padding: 20px 0 25px;
+.header__logo h4{
+	font-size: 30px;
+	padding: 5px;
+	margin: 5px;
+
 }
 
 .header__logo a {
@@ -412,6 +415,9 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 6px;
+	color: brown;
+	font-weight: 1000;
+	font-size: 15px;
 }
 
 .hero__text h1 {
@@ -420,6 +426,8 @@ ol {
 	color: #ffffff;
 	margin-bottom: 20px;
 	margin-top: 22px;
+	font-weight: 800;
+	color: #9c9c4d;
 }
 
 .hero__text p {
