@@ -2157,3 +2157,12 @@ ol {
 		background-position: top 0 left 19%;
 	}
 }
+.copyright{
+	display: flex;
+	height: 5vh;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	color: white;
+}
